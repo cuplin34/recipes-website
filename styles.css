@@ -2,12 +2,35 @@
     text-align: center;
 }
 
+img{
+    width: auto;
+    height: 600px;
+}
+
+button{
+    margin: 0px;
+    margin-left: 1220px;
+}
+
+li{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol{
+    border: 2px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0px;
+    background-color: beige;
+}
+
 body{
     background-color: tan;
 }
 
 ul{
-    list-style-position: inside;
+    list-style: none;
 }
 
 .ingredients-list, .instruction-list{
@@ -15,5 +38,7 @@ ul{
 }
 
 .instruction-list li{
+    word-wrap: break-word;
+    width: 85%;
     padding-top: 12px;
 }
