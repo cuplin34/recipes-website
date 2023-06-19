@@ -2,14 +2,17 @@
     text-align: center;
 }
 
+.header{
+    display: inline;
+}
 img{
     width: auto;
     height: 600px;
+    margin-top: 20px;
 }
 
 button{
-    margin: 0px;
-    margin-left: 1220px;
+    display: inline;
 }
 
 li{
@@ -38,7 +41,16 @@ ul{
 }
 
 .instruction-list li{
-    word-wrap: break-word;
     width: 85%;
-    padding-top: 12px;
+    padding: 12px;
+}
+
+.container{
+    position: relative;
+}
+
+.left-jus{
+    margin: 0px;
+    position: absolute;
+    left: 95%;
 }
