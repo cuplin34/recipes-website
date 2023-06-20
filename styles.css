@@ -9,6 +9,7 @@ img{
     width: auto;
     height: 600px;
     margin-top: 20px;
+    border: 2px black solid;
 }
 
 button{
