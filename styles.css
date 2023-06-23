@@ -3,7 +3,7 @@
 }
 
 img{
-    width: 45%;
+    width: auto;
     height: 600px;
     margin-top: 20px;
     border: 2px black solid;
@@ -59,7 +59,8 @@ div.header-imgs{
     width: 80%;
 }
 
-div.header-imgs img{
+div.header-imgs.two-img img{
     display: inline;
+    width: 45%;
     margin: 0px 5px;
 }
