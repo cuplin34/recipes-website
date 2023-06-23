@@ -2,11 +2,8 @@
     text-align: center;
 }
 
-.header{
-    display: inline;
-}
 img{
-    width: auto;
+    width: 45%;
     height: 600px;
     margin-top: 20px;
     border: 2px black solid;
@@ -55,4 +52,14 @@ ul{
     margin: 0px;
     position: absolute;
     left: 95%;
+}
+
+div.header-imgs{
+    display: inline-block;
+    width: 80%;
+}
+
+div.header-imgs img{
+    display: inline;
+    margin: 0px 5px;
 }
