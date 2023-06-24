@@ -9,10 +9,6 @@ img{
     border: 2px black solid;
 }
 
-button{
-    display: inline;
-}
-
 li{
     margin-left: auto;
     margin-right: auto;
@@ -45,13 +41,23 @@ ul{
 }
 
 .container{
-    position: relative;
+    display: flex;
 }
 
-.left-jus{
-    margin: 0px;
-    position: absolute;
-    left: 95%;
+.container > div {
+    width: 200px;
+    flex: 0,0,0;
+}
+
+.container > h1 {
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
+}
+
+.head-div > div > button{
+    margin-top: 12%;
+    padding: 6px;
 }
 
 div.header-imgs{
