@@ -46,18 +46,19 @@ ul{
 
 .container > div {
     width: 200px;
-    flex: 0,0,0;
+    flex: 1;
 }
 
 .container > h1 {
     margin-left: auto;
     margin-right: auto;
-    flex: 1;
+    flex: 3;
 }
 
 .head-div > div > button{
-    margin-top: 12%;
+    margin-top: 7%;
     padding: 6px;
+    flex: 1;
 }
 
 div.header-imgs{
