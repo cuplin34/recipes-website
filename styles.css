@@ -45,8 +45,11 @@ ul{
 }
 
 .container > div {
+    display: flex;
     width: 200px;
     flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .container > h1 {
@@ -56,9 +59,8 @@ ul{
 }
 
 .head-div > div > button{
-    margin-top: 7%;
     padding: 6px;
-    flex: 1;
+    flex: 1,1,200px;
 }
 
 div.header-imgs{
