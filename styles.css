@@ -52,8 +52,11 @@ body > div{
 }
 
 .div-img > img{
+    display: flex;
+    flex: 1;
     width: auto;
     height: 600px;
+    max-width: 30%;
     border: 2px black solid;
 }
 
