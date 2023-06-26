@@ -1,46 +1,25 @@
 *{
     text-align: center;
-}
-
-img{
-    width: auto;
-    height: 600px;
-    margin-top: 20px;
-    border: 2px black solid;
-}
-
-li{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-ol{
-    border: 2px solid black;
-    margin-left: 25%;
-    margin-right: 25%;
+    font-family: 'Times New Roman', Times, serif;
     padding: 0px;
-    background-color: beige;
+}
+
+.filler{
+    display: flex;
+    flex: 1;
+}
+
+li {
+    font-size: 20px;
 }
 
 body{
     background-color: tan;
+    display: flex;
+    flex-direction: column;
 }
 
-ul{
-    list-style: none;
-    padding: 0px;
-}
-
-.ingredients-list, .instruction-list{
-    font-size: 20px;
-}
-
-.instruction-list li{
-    width: 85%;
-    padding: 8px;
-}
-
-.container{
+body > div{
     display: flex;
 }
 
@@ -53,8 +32,8 @@ ul{
 }
 
 .container > h1 {
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
+    justify-content: center;
     flex: 3;
 }
 
@@ -63,13 +42,52 @@ ul{
     flex: 1,1,200px;
 }
 
-div.header-imgs{
-    display: inline-block;
-    width: 80%;
+.div-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 5px;
+    flex-wrap: wrap;
 }
 
-div.header-imgs.two-img img{
-    display: inline;
-    width: 45%;
-    margin: 0px 5px;
+.div-img > img{
+    width: auto;
+    height: 600px;
+    border: 2px black solid;
+}
+
+.div-des{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .div-ing{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+}
+
+.div-ing li{
+    list-style: none;
+}
+
+.container .div-ins{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+}
+
+.div-ins > ol{
+    margin: 0px;
+    border: 2px solid black;
+    padding: 10px 25px;
+    background-color: beige;
+}
+
+ol li {
+    padding-top: 10px;
 }
