@@ -2,7 +2,50 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     padding: 0px;
+    margin: 0px;
+    border: 0px;
+    list-style: none;
 }
+
+/* CSS code for landing page*/
+body > *{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.header{
+    justify-content: space-around;
+    background-color: grey;
+}
+
+.right-links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left-logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
+.intro{
+    flex: 1;
+    background-color: grey;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+
+.intro > .left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*--CSS code for subpages*/
 
 .filler{
     display: flex;
