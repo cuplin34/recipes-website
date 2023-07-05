@@ -56,6 +56,10 @@ a:link{
     gap: 5px;
 }
 
+.left-text{
+    gap: 10px;
+}
+
 .intro > .left-text {
     flex: 1;
     display: flex;
@@ -67,7 +71,7 @@ a:link{
 
 .left-text > button {
     padding: 5px 0;
-    margin-top: 15px;
+    margin-top: 5px;
     width: 100px;
     background-color: #4267B2;
     border-radius: 15px;
@@ -78,6 +82,7 @@ a:link{
     flex: 1;
     justify-content: center;
     align-items: center;
+    padding-right: 5px;
 }
 
 .page-body{
