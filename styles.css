@@ -4,24 +4,41 @@
     padding: 0px;
     margin: 0px;
     border: 0px;
+}
+
+ul{
     list-style: none;
 }
 
 /* CSS code for landing page*/
 body > *{
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.non-focus{
+    color: rgba(255, 255, 255, 0.87);
 }
 
 .header{
     justify-content: space-around;
     background-color: grey;
+    padding-bottom: 30px;
 }
 
-.right-links ul{
+.right-links div{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link{
+    color: inherit;
 }
 
 .left-logo {
@@ -32,18 +49,49 @@ body > *{
 }
 
 .intro{
-    flex: 1;
     background-color: grey;
+    height: 300px;
     justify-content: space-around;
-    padding: 50px 0px;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .intro > .left-text {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    color: white;
 }
 
+.left-text > button {
+    padding: 5px 0;
+    margin-top: 15px;
+    width: 100px;
+    background-color: #4267B2;
+    border-radius: 15px;
+}
+
+.right-text{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-body{
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.page-body-imgs{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
 
 /*--CSS code for subpages*/
 
@@ -114,10 +162,6 @@ body > div{
     justify-content: center;
     align-items: center;
     flex: 3;
-}
-
-.div-ing li{
-    list-style: none;
 }
 
 .container .div-ins{
