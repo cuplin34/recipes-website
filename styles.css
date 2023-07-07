@@ -65,7 +65,7 @@ a:link{
     background-color: grey;
     height: 350px;
     justify-content: space-around;
-    gap: 5px;
+    gap: 10px;
 }
 
 .left-text{
@@ -175,10 +175,11 @@ a:link{
 
 .sign-up .sign-up-contents .sign-up-button button{
     border: solid white 2px;
-    padding: 5px 8px;
+    padding: 10px 13px;
     color: white;
     background-color: #4267B2;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 /*--CSS code for subpages */
