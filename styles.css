@@ -52,7 +52,6 @@ a:link{
     background-color: grey;
     height: 300px;
     justify-content: space-around;
-    flex-wrap: wrap;
     gap: 5px;
 }
 
@@ -85,17 +84,33 @@ a:link{
     padding-right: 5px;
 }
 
+.right-text > img {
+    display: flex;
+    flex: 1;
+    max-width: 600px;
+    max-height: 250px;
+}
+
 .page-body{
+    padding-top: 20px;
     flex-direction: column;
     height: 300px;
     justify-content: center;
     gap: 30px;
+    flex: 1;
 }
 
 .page-body-imgs{
     display: flex;
     justify-content: center;
     gap: 25px;
+    flex-wrap: wrap;
+}
+
+.page-body-imgs img {
+    height: 300px; 
+    width: 300px;
+    border: black solid 2px;
 }
 
 /*--CSS code for subpages */
