@@ -42,7 +42,7 @@ body > *{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 20px;
 }
 
 a {
@@ -191,7 +191,7 @@ a:link{
     color: white;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 40px;
     padding: 0;
 }
 
