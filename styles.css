@@ -65,7 +65,8 @@ a:link{
     background-color: grey;
     height: 350px;
     justify-content: space-around;
-    gap: 10px;
+    gap: 15px;
+    padding: 0 5px;
 }
 
 .left-text{
@@ -81,6 +82,10 @@ a:link{
     color: white;
 }
 
+.left-text > p {
+    width: 80%;
+}
+
 .left-text > button {
     padding: 5px 0;
     margin-top: 5px;
@@ -94,7 +99,6 @@ a:link{
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding-right: 5px;
 }
 
 .right-text > img {
@@ -180,6 +184,15 @@ a:link{
     background-color: #4267B2;
     border-radius: 10px;
     font-size: 20px;
+}
+
+.copyright{
+    background-color: grey;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 0;
 }
 
 /*--CSS code for subpages */
