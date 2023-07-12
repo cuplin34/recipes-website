@@ -53,6 +53,10 @@ a:link{
     color: inherit;
 }
 
+a:visited{
+    color: white;
+}
+
 .left-logo {
     color: white;
     display: flex;
